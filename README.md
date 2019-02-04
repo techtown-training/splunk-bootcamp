@@ -7,4 +7,4 @@ The course as we currently advertise it - http://aspetraining.com/courses/splunk
 
 ## Hands-On Labs
 
-1. Setting Up the Environment
+1. [Setting Up the Environment](labs/01.md)
