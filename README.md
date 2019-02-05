@@ -12,3 +12,4 @@ The course as we currently advertise it - http://aspetraining.com/courses/splunk
 3. [Upload Log Data Manually](labs/03.md)
 4. [Use the Field Extractor Tool](labs/04.md)
 5. [Use the Forwarder to Send Metrics to Splunk](labs/05.md)
+6. [Search Examples](labs/06.md)
