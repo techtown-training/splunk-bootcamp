@@ -9,4 +9,4 @@ The course as we currently advertise it - http://aspetraining.com/courses/splunk
 
 1. [Reviewing and Setting Up Environment](labs/01.md)
 2. [Create Your First Index](labs/02.md)
-3. 
+3. [Upload Log Data Manually](labs/03.md)
