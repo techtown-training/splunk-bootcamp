@@ -18,3 +18,7 @@ The course as we currently advertise it - http://aspetraining.com/courses/splunk
 9. [Search Examples III](labs/09.md)
 10. [Dashboards](labs/10.md)
 11. [Add Input Forms](labs/11.md)
+12. [Drilldown](labs/12.md)
+13. [Alerts](labs/13.md)
+14. [Scheduled Report](labs/14.md)
+15. [NGINX Logs to Splunk](labs/15.md)
