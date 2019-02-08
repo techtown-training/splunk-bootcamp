@@ -17,4 +17,4 @@ The course as we currently advertise it - http://aspetraining.com/courses/splunk
 8. [Using Lookups](labs/08.md)
 9. [Search Examples III](labs/09.md)
 10. [Dashboards](labs/10.md)
-11. [Add Input Forms](lasbs/11.md)
+11. [Add Input Forms](labs/11.md)
