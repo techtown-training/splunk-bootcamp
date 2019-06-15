@@ -23,4 +23,6 @@ The course as we currently advertise it - http://aspetraining.com/courses/splunk
 12. [Drilldown](labs/12.md)
 13. [Alerts](labs/13.md)
 14. [Scheduled Reports](labs/14.md)
-15. [NGINX Logs to Splunk](labs/15.md)
+15. Putting All Together
+    * [NGINX Logs to Splunk (Linux)](labs/15.md)
+    * [IIS Logs to Splunk (Windows)](labs/15WIN.md)
