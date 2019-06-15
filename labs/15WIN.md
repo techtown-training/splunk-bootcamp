@@ -70,12 +70,21 @@ Remember, one of the purposes of extracting fields is that you can create search
 ### What's Next? Simulation Time!
 Here's where the fun begins. You'll now need to hammer the IIS server to generate enough traffic and then generate log entries to Splunk. There's a Python application that you can use in the server to generate traffic. Here's how to use it:
 
-1. 
+1. The files for load testing has been previously uploaded to the server. There should be a `loadtest` folder in the Desktop. Open the folder, and you should see a few files.
+2. Open a command prompt, like Powershell and run the following command:
+
+```
+.\loadgen.ps1
+```
+
+3. If for some reason the script fails, just run it again and even if you see an error in the output, leave it there. You should see the stats from the load test.
+
+![Loadtest Output](../img/loadtest-output.png)
 
 After you've generated enough traffic, let's practice what you've learned:
 
-- Schedule a report with the top five most visited paths (URLs) in the site
-- Schedule a report with the top five paths with a 404 status code
+- Schedule a report with the top most visited paths (URLs) in the site
+- Schedule a report with the top paths with a 404 status code
 - Create a dashboard panel where you include the following:
     - The top five most visited paths
     - The top five paths with a 404 status code

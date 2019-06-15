@@ -15,6 +15,9 @@ def contact(l):
 def blog(l):
     l.client.get("/Home/Blog")
 
+def news(l):
+    l.client.get("/Home/News")
+
 class UserBehavior(TaskSet):
 
     def on_start(self):
@@ -24,7 +27,8 @@ class UserBehavior(TaskSet):
         home: 1,
         about: 2,
         contact: 10,
-        blog: 2
+        blog: 2,
+        news: 2
     }
 
 class WebsiteUser(HttpLocust):
