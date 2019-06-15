@@ -2,7 +2,7 @@
 set -e
 trap "exit" TERM
 
-pip install --user -r requirements.txt
+pip3 install --user -r requirements.txt
 
 set -x
-locust --host="http://localhost" --no-web -c "30" -r 10 -t 15m --print-stats
+locust --host="http://localhost" --no-web -c "30" -r 10 --print-stats
