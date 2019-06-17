@@ -37,7 +37,7 @@ You'll now RDP into the Splunk instance to modify the configuration files to con
 ![NLog File With Token](../img/nlog-with-token.png)
 
 - Save the file by clicking the "Save" button or pressing `Ctrl+Alt+S` in Notepad++
-- Open the IIS server by clicking the "Search Windows" at the bottom right of the Windows button
+- Open the IIS server by clicking the "Search Windows" at the bottom, right next to the Windows button
 - Type "IIS" and click in the "Internet Information Services (IIS) Manager"
 
 ![Search for IIS in the Search Windows](../img/search-for-iis.png)
