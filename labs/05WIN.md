@@ -5,14 +5,14 @@ Time: 40 minutes
 It's time to start doing more complicated things in the Splunk instance. This time, you'll modify an existing web site in the server that will be sending metrics to Splunk.
 
 ### Configure the HEC
-In the Splunk GUI:
+In the Splunk GUI,
 
 - Click "Settings" > "Data Inputs"
 - Under "Local Inputs," click "HTTP Event Collector"
 - Verify that HEC is enabled
     - Click "Global Settings"
     - For "All Tokens," click "Enabled" if this button isn't already selected
-    - Note the value for HTTP port number, that's the port the application will use to send data
+    - Note the value for HTTP port number. That's the port the application will use to send data
     - Click "Save"
 - Configure an HEC token for sending data by clicking "New Token"
 - On the "Select Source" page, for "Name," enter a token name. For example, you could use "website token"
@@ -27,7 +27,7 @@ In the Splunk GUI:
 ### Configure the website
 You'll now RDP into the Splunk instance to modify the configuration files to connect the application with Splunk.
 
-- From the Desktop, open Notedpad++ by double clickin in the icon. It will ask you if you want to allow the application to make changes in the device. Click "Yes"
+- From the desktop, open Notepad++ by double-clicking the icon. It will ask you if you want to allow the application to make changes in the device. Click "Yes"
 - A file called "nlog.config" will be opened by default. You'll see something like the following:
 
 ![NLog Original File](../img/nlog-original.png)
@@ -36,24 +36,24 @@ You'll now RDP into the Splunk instance to modify the configuration files to con
 
 ![NLog File With Token](../img/nlog-with-token.png)
 
-- Save the file by cliking in the "Save" button or pressing `Ctrl+Alt+S` in Notepad++
-- Open the IIS server by clicking in the "Search Windows" at the bottom. Right to the Windows button.
+- Save the file by clicking the "Save" button or pressing `Ctrl+Alt+S` in Notepad++
+- Open the IIS server by clicking the "Search Windows" at the bottom right of the Windows button
 - Type "IIS" and click in the "Internet Information Services (IIS) Manager"
 
 ![Search for IIS in the Search Windows](../img/search-for-iis.png)
 
 - Expand the server name, and click in the "Application Pools" section
 - Click in the "DefaultAppPool" item
-- In the right side pannel, click in the "Recycle..." button
+- In the right side panel, click in the "Recycle..." button
 
 ![Recycle the Default Applicaiton Pool](../img/recycle-pool.png)
 
 - Open a new browser window with the IP address from the server you've been assigned
-- Hit F5 a few times, click in the link from the top menu (Home, About, and Contact)
+- Hit F5 a few times, and click in the link from the top menu (Home, About, and Contact)
 
 ![Contact Page Site from the Server](../img/contact-page-lab5.png)
 
-- Go back to the Splunk GUI, and search for any event like "Hit Contact view" ... as long as you continue doing requests to the website, and you see that the number of events in Splunk increases, you're good.
+- Go back to the Splunk GUI, and search for any event like "Hit Contact view." As long as you continue making requests to the website and you see that the number of events in Splunk increases, you're good.
 
 ![Splunk Search Results for the Contact Page](../img/splunk-search-results.png)
 
