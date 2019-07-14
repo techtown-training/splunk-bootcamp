@@ -15,9 +15,9 @@ Thank you for participating in our hands-on workshop. We are glad to have you in
 3.	Locate the Installation Database in your Downloads folder, right click, and choose Install. Follow the installation directions until you click “Finish.”
 
     ![Putty Installer Windows](img/conn2.png) 
-        
-4.	 Open the Putty Application.
 
+4. Open the Putty Applicaiton.
+        
     ![Putty Application](img/conn3.png)
 
 5.	Enter the IP address **35.172.92.164** into the **Host name (or IP address)** section in the **Putty Configuration** window.
