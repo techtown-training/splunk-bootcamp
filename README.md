@@ -1,14 +1,14 @@
 # Splunk Bootcamp
 
 
-ASPE's 2 day hands-on Splunk class, taught by an expert from Techtown Labs.
+ASPE's two-day hands-on Splunk class, taught by an expert from ASPE Training.
 
-The course as we currently advertise it - http://aspetraining.com/courses/splunk-training-boot-camp
+The course as we currently advertise it is here: http://aspetraining.com/courses/splunk-training-boot-camp
 
 ## Hands-On Labs
-Here are the hands-on labs that you're going to do during the Bootcamp. There are a few labs specific to **Linux** and others to **Windows**, you'd know which one to use by reading the title of the lab. Make sure you read the instructions of each lab before starting.
+Here are the hands-on labs that you're going to do during the bootcamp. There are a few labs specific to **Linux** and a few others specific to **Windows**. You'll know which is which by reading the title of the lab, and you can choose the one appropriate for you. Make sure you read the instructions of each lab before starting.
 
-Please work with the **lab #0 a few days ahead** the Bootcamp to make sure you'll be able to finsh the labs and that your company's firewall won't be blocking any communication to the servers.
+**Please examine and test the activities in lab #0 a few days before the bootcamp** to make sure you'll be able to finsh the labs and that your company's firewall won't be blocking any communication to the servers.
 
 0. [Connectivity Tests](connectivity.md)
 1. [Reviewing and Setting Up Environment](labs/01.md)
