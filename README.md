@@ -11,7 +11,7 @@ Here are the hands-on labs that you're going to do during the Bootcamp. There ar
 Please work with the **lab #0 a few days ahead** the Bootcamp to make sure you'll be able to finsh the labs and that your company's firewall won't be blocking any communication to the servers.
 
 0. [Connectivity Tests](connectivity.md)
-1. [Reviewing and Setting Up Environment](labs/01.md)
+1. [Reviewing and Setting Up the Environment](labs/01.md)
 2. [Create Your First Index](labs/02.md)
 3. [Upload Log Data Manually](labs/03.md)
 4. [Use the Field Extractor Tool](labs/04.md)
