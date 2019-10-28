@@ -18,9 +18,8 @@ In the Splunk GUI,
 - On the "Select Source" page, for "Name," enter a token name. For example, you could use "website token"
 - Leave the other options blank or unselected
 - Click "Next"
-- Next to "Default Index," click "Create a new index" to create one. In the "New Index" dialog box, do the following:
-    - Enter an index name. User-defined index names must consist of only numbers, lowercase letters, underscores, and hyphens. Index names cannot begin with an underscore or hyphen
-    - Click "Save"
+- In the "Select Allowed Indexes" choose (or click) "main"
+- Next to "Default Index," choose (or click) "main"
 - Click "Review," and then click "Submit"
 - Copy the **token value** that's displayed, which you'll need to configure the website when replacing it with `{{TOKEN}}`
 
