@@ -24,7 +24,7 @@ In the Splunk GUI,
 - Copy the **token value** that's displayed, which you'll need to configure the website when replacing it with `{{TOKEN}}`
 
 ### Configure the website
-You'll now RDP into the same Splunk instance to modify the configuration files to connect the application with Splunk.
+You'll now RDP into the **same Splunk instance** to modify the configuration files to connect the application with Splunk.
 
 - From the desktop, open Notepad++ by double-clicking the icon. It will ask you if you want to allow the application to make changes in the device. Click "Yes"
 - A file called "nlog.config" will be opened by default. You'll see something like the following:
