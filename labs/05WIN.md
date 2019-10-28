@@ -44,6 +44,7 @@ You'll now RDP into the Splunk instance to modify the configuration files to con
 - Expand the server name, and click in the "Application Pools" section
 - Click in the "DefaultAppPool" item
 - In the right side panel, click in the "Recycle..." button
+- Restart the IIS service
 
 ![Recycle the Default Applicaiton Pool](../img/recycle-pool.png)
 
