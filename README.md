@@ -5,8 +5,10 @@ ASPE's two-day hands-on Splunk class, taught by an expert from ASPE Training.
 
 The course as we currently advertise it is here: http://aspetraining.com/courses/splunk-training-boot-camp
 
+The course AMI (us-east-1): `ami-002571515adea4002`
+
 ## Hands-On Labs
-Here are the hands-on labs that you're going to do during the boot camp. There are a few labs specific to **Linux**. Make sure you read the instructions of each lab before starting.
+Here are the hands-on labs that you're going to do during the boot camp. There are a few labs sections specific to **Linux**. Make sure you read the instructions of each lab before starting.
 
 Please work with the lab connectivity instructions for the boot camp to make sure you'll be able to finish the labs and that your company's firewall won't be blocking any communication to the servers. We should be sending you the instructions before the boot camp starts.
 
@@ -25,4 +27,3 @@ Please work with the lab connectivity instructions for the boot camp to make sur
 12. [Drilldown](labs/12.md)
 13. [Alerts](labs/13.md)
 14. [Scheduled Reports](labs/14.md)
-
